@@ -1,2 +1,2 @@
-# Scripts utilisés pour des CTFs
-Ce dépôt contient la liste des scripts que j'ai codé durant les CTFs (Capture the flag) auquels j'ai participé.
+# Scripts, liens et informations utiles que j'utilise lors de CTFs (Capture the flag)
+Ce dépôt contient toutes sortes d'informations (scripts, programmes, liens et autres) qui me sont utiles lors de compétitions de CTFs.
